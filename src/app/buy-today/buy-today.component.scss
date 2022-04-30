@@ -1,0 +1,48 @@
+.buy-today-section {
+  background-image: url("../../assets/images/buy-to-day-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  @media (max-width: 576px) {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+.buy-today-section-inner h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #ffffff;
+  @media (max-width: 576px) {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+.buy-today-section-inner p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #e1e4ec;
+
+  @media (max-width: 576px) {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+.siteButton {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+  background: #2878f0;
+  border-radius: 8px;
+  padding: 17px 30px;
+  text-decoration: none;
+}
+.siteButton:hover {
+  color: #fff;
+}

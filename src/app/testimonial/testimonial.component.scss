@@ -1,0 +1,54 @@
+.testimonials {
+  padding: 100px 0;
+  .sliderItem {
+    .client-says {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 30px;
+      color: #525773;
+      padding: 30px;
+      box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.06);
+      border: 1.5px solid #f1f3f9;
+      border-radius: 8px;
+      p {
+        img {
+          position: absolute;
+          left: 20px;
+          top: 20px;
+        }
+      }
+      .ratting {
+        a {
+          span {
+            font-weight: 500;
+            font-size: 12px;
+            color: #5d5b70;
+          }
+        }
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        left: 30px;
+        bottom: -15px;
+        width: 30px;
+        height: 15px;
+        background-color: #fff;
+        clip-path: polygon(100% 0, 0 0, 50% 100%);
+      }
+    }
+    .client-info {
+      .info {
+        .name {
+          color: #1a1f39;
+          font-weight: 600;
+        }
+        .is-verify {
+          font-weight: 500;
+          font-size: 14px;
+          color: #708c8d;
+        }
+      }
+    }
+  }
+}

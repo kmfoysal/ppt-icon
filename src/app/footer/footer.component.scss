@@ -1,0 +1,64 @@
+footer {
+  background: #f6f7fb;
+  padding-top: 100px;
+
+  @media (max-width: 575px) {
+    padding-top: 60px;
+  }
+
+  .footer-widget {
+    .widget-title {
+      color: #2d3459;
+    }
+    .widget-menu {
+      a {
+        font-size: 14px;
+        transition: all 0.3s linear;
+        color: #7b8099;
+        &:hover {
+          color: #2d3459;
+        }
+      }
+    }
+    .social-list {
+      a {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 1px solid #e1e4ec;
+        transition: all 0.3s linear;
+        &:hover {
+          background-color: #2878f0;
+          svg * {
+            fill: #fff !important;
+          }
+        }
+      }
+    }
+  }
+  .copyright {
+    border-top: 1px solid #e1e4ec;
+    p {
+      font-size: 12px;
+      color: #7b8099;
+    }
+    .paymentMethod {
+      a {
+        img {
+          transition: all 0.3s linear;
+          &:hover {
+            transform: scale(0.9);
+          }
+
+          @media (max-width: 575px) {
+            width: 35px;
+          }
+
+          @media (min-width: 768px) {
+            width: 30px;
+          }
+        }
+      }
+    }
+  }
+}

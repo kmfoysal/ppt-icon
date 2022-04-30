@@ -1,0 +1,42 @@
+.navbar {
+  padding-top: 30px;
+
+  @media (max-width: 575px) {
+    padding-top: 20px;
+  }
+
+  .navbar-brand {
+    img {
+      @media (max-width: 575px) {
+        width: 114px;
+      }
+    }
+  }
+  .navbar-nav {
+    @media (max-width: 991.98px) {
+      align-items: center;
+      margin-top: 40px;
+    }
+
+    .nav-item {
+      .nav-link {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #2d3459;
+      }
+    }
+  }
+
+  .auth-item {
+    align-items: center;
+    .nav-link {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: #2d3459;
+    }
+  }
+
+  // Responsive CSS
+}

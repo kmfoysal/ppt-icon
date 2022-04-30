@@ -1,0 +1,104 @@
+.hero-area {
+  height: 887px;
+  padding-top: 120px;
+  background-image: url("../../assets/images/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  @media (max-width: 575px) {
+    height: 700px;
+  }
+
+  @media (min-width: 768px) {
+    padding-top: 80px;
+  }
+  @media (max-width: 575px) {
+    padding-top: 60px;
+  }
+
+  .text-area {
+    text-align: center;
+    h1 {
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 60px;
+      color: #1a1f39;
+      margin-bottom: 20px;
+
+      @media (max-width: 575px) {
+        font-size: 24px;
+        line-height: 32px;
+      }
+    }
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      color: #2d3459;
+      width: 45%;
+      margin: 0 auto;
+      @media (min-width: 768px) {
+        width: 90%;
+      }
+
+      @media (max-width: 575px) {
+        width: 100%;
+      }
+    }
+  }
+  .search-box {
+    max-width: 808px;
+    min-height: 92px;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0px 15px 30px rgba(35, 21, 75, 0.04);
+    border-radius: 8px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    @media (max-width: 575px) {
+      flex-direction: column;
+    }
+
+    input {
+      width: 600px;
+      height: 52px;
+      background: #f6f7fb;
+      border: none;
+      border-radius: 8px;
+      padding: 0 25px;
+
+      @media (max-width: 575px) {
+        width: 100%;
+      }
+
+      &:focus {
+        outline: none;
+        border: 1px solid #2878f0;
+      }
+    }
+
+    .search-btn {
+      width: 153px;
+      height: 52px;
+      background: #2878f0;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 18px;
+      color: #ffffff;
+
+      @media (max-width: 575px) {
+        width: 100%;
+      }
+
+      &:hover {
+        background-color: #68dbba;
+      }
+    }
+  }
+}

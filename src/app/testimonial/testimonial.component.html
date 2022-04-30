@@ -1,0 +1,100 @@
+<section class="testimonials">
+  <div class="container">
+    <div class="section-header text-center mb-5">
+      <h2 class="sec-title text-dark mb-4 fw-bold">What our client says</h2>
+      <p class="sub-title fs-6 mb-5">
+        Our clients send us bunch of smiles with our services and we love them
+      </p>
+    </div>
+
+    <owl-carousel-o [options]="customOptions">
+      <ng-container *ngFor="let review of reviews">
+        <ng-template carouselSlide>
+          <div class="sliderItem">
+            <div class="client-says bg-white position-relative mb-4">
+              <p class="mb-4">
+                <img src="{{ review.qouteImg }}" alt="icon" class="w-auto" />
+                {{ review.reviewText }}
+              </p>
+              <ul
+                class="ratting list-unstyled mb-0 d-flex gap-1 align-items-center"
+              >
+                <li>
+                  <a href="#">
+                    <img
+                      src="{{ review.fullStarImg }}"
+                      alt="icon"
+                      class="img-fluid"
+                      w-auto
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img
+                      src="{{ review.fullStarImg }}"
+                      alt="icon"
+                      class="img-fluid w-auto"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img
+                      src="{{ review.fullStarImg }}"
+                      alt="icon"
+                      class="img-fluid w-auto"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img
+                      src="{{ review.fullStarImg }}"
+                      alt="icon"
+                      class="img-fluid w-auto"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img
+                      src="{{ review.halfStarImg }}"
+                      alt="icon"
+                      class="img-fluid w-auto"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none">
+                    <span>{{ review.rating }}</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="client-info d-flex gap-3 align-items-center ps-4 pt-2">
+              <div class="client-pic">
+                <img
+                  src="{{ review.clientImg }}"
+                  alt="img"
+                  class="img-fluid w-auto"
+                />
+              </div>
+              <div class="info">
+                <h4 class="name fs-5">{{ review.clientName }}</h4>
+                <p class="is-verify mb-0 d-flex align-items-center gap-2">
+                  <img
+                    src="{{ review.verifiedIcon }}"
+                    alt="icon"
+                    class="img-fluid w-auto"
+                  />
+                  {{ review.verifiedText }}
+                </p>
+              </div>
+            </div>
+          </div>
+        </ng-template>
+      </ng-container>
+    </owl-carousel-o>
+  </div>
+</section>

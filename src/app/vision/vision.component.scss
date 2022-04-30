@@ -1,0 +1,72 @@
+.vision {
+  padding: 80px 0;
+  background-color: #fff;
+  background-image: url("../../assets/images/vision-bg-left.png"),
+    url("../../assets/images/vision-bg-right.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 330px 50px, 80% 50px;
+
+  @media (max-width: 575px) {
+    padding: 50px 0;
+  }
+
+  .text-box {
+    @media (max-width: 575px) {
+      margin-bottom: 30px;
+    }
+    h3 {
+      font-weight: Bold;
+      font-size: 36px;
+      line-height: 48px;
+      margin-bottom: 30px;
+      width: 89%;
+
+      @media (max-width: 575px) {
+        font-size: 24px;
+        line-height: 30px;
+        width: 100%;
+      }
+    }
+    p {
+      font-size: 16px;
+      line-height: 26px;
+      color: #36465f;
+      margin-bottom: 35px;
+    }
+  }
+
+  .vision-card {
+    max-width: 350px;
+    height: 268px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px rgba(21, 44, 41, 0.06);
+    margin-bottom: 30px;
+    transition: ease 0.3s;
+    cursor: pointer;
+    z-index: 2;
+
+    &:hover {
+      box-shadow: 15px 15px 10px rgba(21, 44, 41, 0.06);
+    }
+
+    img {
+      margin-bottom: 20px;
+    }
+
+    h5 {
+      font-size: 20px;
+      line-height: 30px;
+      color: #1a1f39;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 24px;
+      color: #525773;
+    }
+  }
+}

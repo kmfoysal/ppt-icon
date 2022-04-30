@@ -1,0 +1,43 @@
+.chart {
+  padding: 100px 0;
+  background-image: url("../../assets/images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  @media (max-width: 575px) {
+    padding: 60px 0;
+  }
+
+  .text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h4 {
+      font-size: 36px;
+      line-height: 48px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      width: 70%;
+
+      @media (max-width: 575px) {
+        font-size: 24px;
+        line-height: 30px;
+        width: 100%;
+      }
+    }
+    p {
+      font-size: 16px;
+      line-height: 26px;
+      color: #36465f;
+      margin-bottom: 30px;
+
+      @media (max-width: 575px) {
+        font-size: 14px;
+        line-height: 20px;
+        width: 100%;
+      }
+    }
+  }
+}

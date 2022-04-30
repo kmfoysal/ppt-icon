@@ -1,0 +1,108 @@
+.unlock-access {
+  background-color: #f6f7fb;
+
+  .unlock-access-heading {
+    h2 {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 48px;
+      text-align: center;
+      color: #1a1f39;
+      @media (max-width: 576px) {
+        font-size: 24px;
+        line-height: 30px;
+      }
+    }
+    p {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 26px;
+      text-align: center;
+      color: #525773;
+      @media (max-width: 576px) {
+        font-size: 14px;
+        line-height: 24px;
+      }
+    }
+  }
+}
+.unlock-access-card {
+  background: #ffffff;
+  border: 1px solid #e1e4ec;
+  border-radius: 8px;
+  padding: 40px;
+  @media (max-width: 991px) {
+    padding: 25px;
+  }
+
+  .siteButton {
+    @media (max-width: 991px) {
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 16px;
+    }
+  }
+}
+.unlock-access-callToAction {
+  background: #ecf2fc;
+  border-radius: 20px;
+  padding: 14px 30px;
+  @media (max-width: 991px) {
+    padding: 15px 20px;
+  }
+}
+.priceHeading {
+  h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2878f0;
+    @media (max-width: 991px) {
+      font-size: 14px;
+      line-height: 24px;
+    }
+  }
+  h1 {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 60px;
+    color: #1a1f39;
+    @media (max-width: 991px) {
+      font-size: 30px;
+      line-height: 36px;
+    }
+
+    span {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 26px;
+      color: #7b8099;
+      @media (max-width: 991px) {
+        font-size: 14px;
+        line-height: 24px;
+      }
+    }
+  }
+}
+.unlock-card-features {
+  h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+  }
+}
+.unlock-features-item {
+  margin-bottom: -8px;
+  ul {
+    padding: 0px;
+    li {
+      list-style: none;
+      padding: 8px 0;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      color: #2d3459;
+    }
+  }
+}
